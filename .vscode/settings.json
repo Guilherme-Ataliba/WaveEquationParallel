@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "auxilary.c": "cpp",
+        "random": "cpp",
+        "stdlib.h": "c",
+        "cmath": "c"
+    }
+}
