@@ -6,6 +6,9 @@ O algoritmo implementado aplica o método de diferenças finitas, de forma que a
 
 Ademais, o algoritmo cria um arquivo de informações, que contém, além do tempo de execução, dados que serão utilizados por *"plot.py"* para realizar a produção do GIF de forma automática. 
 
+## Paralelização
+O algoritmo foi implementado em três diferentes frameworks de paralelização: **OpenMP**, **MPI** e **CUDA**. Os três algoritmos podem ser encontrados no diretório *source* e o Makefile foi implementado com as três versões diferentes em mente. 
+
 ## Makefile
 O arquivo Makefile busca garantir a correta execução do programa em diferentes sistemas, para isso asseguramos que as devidas pastas serão criadas como pré-requisito para a execução do programa.
 
